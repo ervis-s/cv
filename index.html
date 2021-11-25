@@ -1,78 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Curriculum Vitae</title>
+  <title>Ervis Shullazi</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css\styles.css">
+  <link rel="icon" href="css\favicon.ico"></link>
+  <!-- Link for the font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<table>
-    <tr>
-        <td><img alt="my image" src="img.png" height="180"></td>
-        <td>
-            <h1>Ervis</h1>
-            <p><em><strong>Cloud Analyst</strong></em></p>
-            <!-- <br>-->
-            <p>Primo tentativo di creare un CV Online partendo dalle basi, quindi HTML e CSS.</p>
-        </td>
-    </tr>
-</table>
-<hr>
-<h3>ISTRUZIONE E FORMAZIONE</h3>
-<ul>
-    <li>Laurea Triennale in Ingegneria Gestionale <a href="https://www.unisa.it/">all'Università di Salerno</a></li>
-    <li>Erasmus a <a href="https://liu.se/en">Linköping University</a> (Svezia)</li>
-    <li>Laurea Magistrale in Ingegneria Gestionale <a href="https://www.unisa.it/">all'Università di Salerno</a></li>
-</ul>
-<h3>COMPETENZE LINGUISTICHE</h3>
-<ol>
-    <li>Italiano</li>
-    <li>Inglese</li>
-    <li>Albanese</li>
-</ol>
-<hr>
-<h3>ESPERIENZA LAVORATIVA</h3>
-<table cellspacing="20">
-    <thead>
-    <tr>
-        <th>Data</th>
-        <th>Esperienza</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>02/2016 – 08/2016</td>
-        <td>Disegnatore meccanico 3D</td>
-    </tr>
-    <tr>
-        <td>09/2018 - Attuale</td>
-        <td>Sistemista</td>
-    </tr>
-    <tr>
-        <td>01/2020 - Attuale</td>
-        <td>Cloud Analyst</td>
-    </tr>
-    </tbody>
-</table>
-<hr>
-<h3>Skills</h3>
-<table cellspacing="5">
-    <tbody>
-    <tr>
-        <td>Python ⭐⭐⭐⭐</td>
-        <td>Cloud ⭐⭐⭐⭐</td>
-        <td>SQL ⭐⭐⭐⭐</td>
-        <td>OCP ⭐⭐⭐</td>
-        <td>Linux ⭐⭐⭐</td>
-    </tr>
-    <tr>
-        <td>Docker ⭐⭐⭐</td>
-        <td>HTML ⭐⭐</td>
-        <td>CSS ⭐⭐</td>
-        <td>Bash Scripting ⭐⭐</td>
-    </tr>
-    </tbody>
-</table>
-<hr>
-<a href="contact_me.html">Contact me</a>
+<div class="top-container">
+  <img class="top-cloud" src="images/cloud.png" alt="cloud-image">
+  <h1>I'am Ervis.</h1>
+  <h2>I <span>newbie</span> programmer</h2>
+  <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image">
+  <img src="images/mountain.png" alt="cloud-image">
+</div>
+
+<div class="middle-container">
+  <div class="profile">
+    <img src="images/img.png" alt="my_photo" style="width: 200px">
+    <h2>Hello.</h2>
+    <p class="intro">I decided to build my own CV website starting from the basic HTML and CSS knowledge.</p>
+  </div>
+  <hr>
+  <div class="skills">
+    <h2>My Skills.</h2>
+    <div class="skill-row">
+      <img class="code_image" src="images/filter.png" alt="">
+      <h3>Programming</h3>
+      <p>I am very new to programming I started somehow 8 months ago with python, my next step will be becoming advanced with python and learning HTML, CSS and JavaScript</p>
+    </div>
+    <div class="skill-row">
+      <img class="cali_image" src="images/cali.jpg" alt="">
+      <h3>Calisthenics</h3>
+      <!--style="clear: right"-->
+      <p>I am trying to focus also on body training, I have to admit that lately I am giving it not as much time as I would like to. But very soon I will be less distracted.</p>
+    </div>
+  </div>
+  <hr>
+  <div class="contact-me">
+    <h2>Get In Touch</h2>
+    <h3>If you are crazy enough to think I am good programmer.</h3>
+    <p style="width: 40%; margin: 40px auto 60px">For any doubt please do not contact me, I am not so skilled to help you right now!! 😁.</p>
+    <!-- <a class="btn" href="mailto:name@email.com" style="color: #11999E">CONTACT ME</a> -->
+    <form action="mailto:name@email.com">
+      <input class="btn" type="button" value="Contact me">
+    </form>
+  </div>
+</div>
+
+<div class="bottom-container">
+  <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+  <a class="footer-link" href="https://twitter.com/">Twitter</a>
+  <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+  <p style="color: #EAF6F6; font-size: 0.75rem; padding: 20px 0">© 2022 Ervis Shullazi.</p>
+</div>
 </body>
 </html>
