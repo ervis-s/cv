@@ -1,0 +1,138 @@
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+/* When is 0 you don't need to specify the unit, pixel or whatever */
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+/* in terms of font size 100% is 16px*, another way to make it dynamic is to use em (phonetic for M, 1M=1em=16px) and not px */
+/* em and % are inherited/added on top of whatever you got from the parent, (body {font-size: 2em;}) for example. You can use rem to avoid this (root em) */
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+p {
+    line-height: 2;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0px auto;
+/*    margin: 0 auto 0 auto; */
+/*    width: 10% */
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    /*line-height: */
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.middle-container {
+    margin: 100px auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.code_image {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.cali_image {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 30%;
+    bottom: 40%;
+
+}
+
+.top-cloud {
+    position: absolute;
+    right: 30%;
+    top: 15%;
+}
+
+.footer-link {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #EAF6F6;
+}
+
+hr {
+    border-style: dotted none none none;
+    width: 5%;
+    color: #A6E3E9;
+    border-width: 6px;
+    margin: 80px auto;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 36px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
